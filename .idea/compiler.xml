@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="1.6">
+      <module name="buildSrc.my-project" target="18" />
+      <module name="buildSrc.my-project.main" target="18" />
+      <module name="buildSrc.my-project.test" target="18" />
+      <module name="my-build-logic.my-java-plugin" target="18" />
+      <module name="my-build-logic.my-java-plugin.main" target="18" />
+      <module name="my-build-logic.my-java-plugin.test" target="18" />
+      <module name="my-build-logic.my-library-build.main" target="18" />
+      <module name="my-build-logic.my-library-build.test" target="18" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

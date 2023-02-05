@@ -1,0 +1,13 @@
+# Project exclude paths
+/buildSrc/.gradle/
+/buildSrc/build/
+/buildSrc/build/classes/kotlin/main/
+/my-build-logic/.gradle/
+/my-build-logic/build/
+/my-build-logic/build/classes/kotlin/main/
+/my-other-project/.gradle/
+/my-project/.gradle/
+/my-project/app/build/
+/my-project/app/build/classes/java/main/
+/my-project/business-logic/build/
+/my-project/data-model/build/

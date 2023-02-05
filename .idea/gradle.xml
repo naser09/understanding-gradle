@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/buildSrc" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/buildSrc" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/my-build-logic" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/my-build-logic" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/my-other-project" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/my-other-project" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <compositeConfiguration>
+          <compositeBuild compositeDefinitionSource="SCRIPT">
+            <builds>
+              <build path="$PROJECT_DIR$/my-build-logic" name="my-build-logic">
+                <projects>
+                  <project path="$PROJECT_DIR$/my-build-logic" />
+                </projects>
+              </build>
+            </builds>
+          </compositeBuild>
+        </compositeConfiguration>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/my-project" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/my-build-logic" />
+            <option value="$PROJECT_DIR$/my-project" />
+            <option value="$PROJECT_DIR$/my-project/app" />
+            <option value="$PROJECT_DIR$/my-project/build" />
+            <option value="$PROJECT_DIR$/my-project/business-logic" />
+            <option value="$PROJECT_DIR$/my-project/config" />
+            <option value="$PROJECT_DIR$/my-project/data-model" />
+            <option value="$PROJECT_DIR$/my-project/gradle" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
